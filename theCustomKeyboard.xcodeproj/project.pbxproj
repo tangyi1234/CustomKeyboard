@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		A27FB8861BF5CB0000019D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A27FB8851BF5CB0000019D3E /* main.m */; };
 		A27FB8891BF5CB0000019D3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27FB8881BF5CB0000019D3E /* AppDelegate.m */; };
-		A27FB88C1BF5CB0000019D3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27FB88B1BF5CB0000019D3E /* ViewController.m */; };
-		A27FB88F1BF5CB0000019D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27FB88D1BF5CB0000019D3E /* Main.storyboard */; };
 		A27FB8921BF5CB0000019D3E /* theCustomKeyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A27FB8901BF5CB0000019D3E /* theCustomKeyboard.xcdatamodeld */; };
 		A27FB8941BF5CB0000019D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27FB8931BF5CB0000019D3E /* Assets.xcassets */; };
-		A27FB8971BF5CB0000019D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27FB8951BF5CB0000019D3E /* LaunchScreen.storyboard */; };
 		A27FB8A21BF5CB0100019D3E /* theCustomKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27FB8A11BF5CB0100019D3E /* theCustomKeyboardTests.m */; };
 		A27FB8AD1BF5CB0100019D3E /* theCustomKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27FB8AC1BF5CB0100019D3E /* theCustomKeyboardUITests.m */; };
+		A27FB8BC1BF5CB5200019D3E /* TYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27FB8BB1BF5CB5200019D3E /* TYViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A27FB8C11BF5CDA600019D3E /* YYKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A27FB8BE1BF5CDA600019D3E /* YYKeyboardView.m */; settings = {ASSET_TAGS = (); }; };
+		A27FB8C21BF5CDA600019D3E /* YYKeyboardView+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = A27FB8C01BF5CDA600019D3E /* YYKeyboardView+TY.m */; settings = {ASSET_TAGS = (); }; };
+		A27FB8C61BF5D36700019D3E /* TYA_total_of.m in Sources */ = {isa = PBXBuildFile; fileRef = A27FB8C51BF5D36700019D3E /* TYA_total_of.m */; settings = {ASSET_TAGS = (); }; };
+		A27FB8C91BF5E78400019D3E /* TYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A27FB8C81BF5E78400019D3E /* TYTextField.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +42,8 @@
 		A27FB8851BF5CB0000019D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A27FB8871BF5CB0000019D3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A27FB8881BF5CB0000019D3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A27FB88A1BF5CB0000019D3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A27FB88B1BF5CB0000019D3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A27FB88E1BF5CB0000019D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A27FB8911BF5CB0000019D3E /* theCustomKeyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = theCustomKeyboard.xcdatamodel; sourceTree = "<group>"; };
 		A27FB8931BF5CB0000019D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A27FB8961BF5CB0000019D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A27FB8981BF5CB0000019D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A27FB89D1BF5CB0100019D3E /* theCustomKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = theCustomKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27FB8A11BF5CB0100019D3E /* theCustomKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = theCustomKeyboardTests.m; sourceTree = "<group>"; };
@@ -53,6 +51,17 @@
 		A27FB8A81BF5CB0100019D3E /* theCustomKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = theCustomKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27FB8AC1BF5CB0100019D3E /* theCustomKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = theCustomKeyboardUITests.m; sourceTree = "<group>"; };
 		A27FB8AE1BF5CB0100019D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27FB8BA1BF5CB5200019D3E /* TYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewController.h; sourceTree = "<group>"; };
+		A27FB8BB1BF5CB5200019D3E /* TYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewController.m; sourceTree = "<group>"; };
+		A27FB8BD1BF5CDA600019D3E /* YYKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKeyboardView.h; sourceTree = "<group>"; };
+		A27FB8BE1BF5CDA600019D3E /* YYKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKeyboardView.m; sourceTree = "<group>"; };
+		A27FB8BF1BF5CDA600019D3E /* YYKeyboardView+TY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYKeyboardView+TY.h"; sourceTree = "<group>"; };
+		A27FB8C01BF5CDA600019D3E /* YYKeyboardView+TY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYKeyboardView+TY.m"; sourceTree = "<group>"; };
+		A27FB8C31BF5D26500019D3E /* eader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eader.h; sourceTree = "<group>"; };
+		A27FB8C41BF5D36700019D3E /* TYA_total_of.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYA_total_of.h; sourceTree = "<group>"; };
+		A27FB8C51BF5D36700019D3E /* TYA_total_of.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYA_total_of.m; sourceTree = "<group>"; };
+		A27FB8C71BF5E78400019D3E /* TYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextField.h; sourceTree = "<group>"; };
+		A27FB8C81BF5E78400019D3E /* TYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +114,18 @@
 			children = (
 				A27FB8871BF5CB0000019D3E /* AppDelegate.h */,
 				A27FB8881BF5CB0000019D3E /* AppDelegate.m */,
-				A27FB88A1BF5CB0000019D3E /* ViewController.h */,
-				A27FB88B1BF5CB0000019D3E /* ViewController.m */,
-				A27FB88D1BF5CB0000019D3E /* Main.storyboard */,
+				A27FB8BA1BF5CB5200019D3E /* TYViewController.h */,
+				A27FB8BB1BF5CB5200019D3E /* TYViewController.m */,
+				A27FB8BD1BF5CDA600019D3E /* YYKeyboardView.h */,
+				A27FB8BE1BF5CDA600019D3E /* YYKeyboardView.m */,
+				A27FB8BF1BF5CDA600019D3E /* YYKeyboardView+TY.h */,
+				A27FB8C01BF5CDA600019D3E /* YYKeyboardView+TY.m */,
+				A27FB8C31BF5D26500019D3E /* eader.h */,
+				A27FB8C41BF5D36700019D3E /* TYA_total_of.h */,
+				A27FB8C51BF5D36700019D3E /* TYA_total_of.m */,
+				A27FB8C71BF5E78400019D3E /* TYTextField.h */,
+				A27FB8C81BF5E78400019D3E /* TYTextField.m */,
 				A27FB8931BF5CB0000019D3E /* Assets.xcassets */,
-				A27FB8951BF5CB0000019D3E /* LaunchScreen.storyboard */,
 				A27FB8981BF5CB0000019D3E /* Info.plist */,
 				A27FB8901BF5CB0000019D3E /* theCustomKeyboard.xcdatamodeld */,
 				A27FB8841BF5CB0000019D3E /* Supporting Files */,
@@ -246,9 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A27FB8971BF5CB0000019D3E /* LaunchScreen.storyboard in Resources */,
 				A27FB8941BF5CB0000019D3E /* Assets.xcassets in Resources */,
-				A27FB88F1BF5CB0000019D3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A27FB88C1BF5CB0000019D3E /* ViewController.m in Sources */,
+				A27FB8C11BF5CDA600019D3E /* YYKeyboardView.m in Sources */,
 				A27FB8891BF5CB0000019D3E /* AppDelegate.m in Sources */,
+				A27FB8BC1BF5CB5200019D3E /* TYViewController.m in Sources */,
+				A27FB8C61BF5D36700019D3E /* TYA_total_of.m in Sources */,
 				A27FB8861BF5CB0000019D3E /* main.m in Sources */,
+				A27FB8C21BF5CDA600019D3E /* YYKeyboardView+TY.m in Sources */,
+				A27FB8C91BF5E78400019D3E /* TYTextField.m in Sources */,
 				A27FB8921BF5CB0000019D3E /* theCustomKeyboard.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,25 +328,6 @@
 			targetProxy = A27FB8A91BF5CB0100019D3E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A27FB88D1BF5CB0000019D3E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A27FB88E1BF5CB0000019D3E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A27FB8951BF5CB0000019D3E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A27FB8961BF5CB0000019D3E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A27FB8AF1BF5CB0100019D3E /* Debug */ = {

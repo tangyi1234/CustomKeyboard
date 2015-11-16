@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TYViewController.h
 //  theCustomKeyboard
 //
 //  Created by 汤义 on 15/11/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TYViewController : UIViewController
 
 @end
-

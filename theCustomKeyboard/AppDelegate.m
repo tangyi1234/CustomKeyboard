@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TYViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    TYViewController *view = [[TYViewController alloc] init];
+    UINavigationController *Navigation = [[UINavigationController alloc] initWithRootViewController:view];
+    self.window.rootViewController = Navigation;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
